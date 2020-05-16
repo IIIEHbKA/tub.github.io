@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Таймер</title>
+	<link rel="stylesheet" href="time.css">
+</head>
+
+<body>
+	<!-- Ванна А -->
+	<div class="wrap">
+		<div class="box">
+			<section class="menu">
+				<p class="tub">Ванна: A</p>
+				<input type="number" name="time" id="time" placeholder="Введите время">
+				<button id="button">On</button>
+				<span class="info">Время осталось</span>
+				<div id="timer" class="time"></div>
+				<script src="tub.js"></script>
+				<!-- Ванна Б -->
+				<p class="tub">Ванна: B</p>
+				<input type="number" name="time" id="timeB" placeholder="Введите время">
+				<button id="buttonB">On</button>
+				<span class="info">Время осталось</span>
+				<div id="timerB" class="time"></div>
+				<script src="tubB.js"></script>
+				<!-- Ванна Ц -->
+				<p class="tub">Ванна: C</p>
+				<input type="number" name="time" id="timeC" placeholder="Введите время">
+				<button id="buttonC">On</button>
+				<span class="info">Время осталось</span>
+				<div id="timerC" class="time"></div>
+				<script src="tubC.js"></script>
+				<!-- Ванна D -->
+				<p class="tub">Ванна: D</p>
+				<input class="error" type="text" name="time" id="timeD" value="Не работает" readonly>
+				<button id="button">On</button>
+				<span class="info">Время осталось</span>
+				<div id="timerD" class="time"></div>
+				<script src="script.js"></script>
+			</section>
+		</div>
+	</div>
+</body>
+
+</html>
