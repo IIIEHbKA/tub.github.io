@@ -1,0 +1,100 @@
+/* .wrap{
+	margin: 0 auto;
+	width: 300px;
+	height: 100%;
+	border: 1px solid red;
+}
+
+#timer,#timerA{
+	display: block;
+	width: 100px;
+	height: 10px;
+}
+input{
+	width: 200px;
+	height: 30px;
+	font-size: 30px;
+	text-align: center;
+	
+}
+
+button{
+	width: 200px;
+	height: 40px;
+} */
+
+.box{
+	border: 1px solid red;
+	-margin: 0 auto;
+	width: 400px;
+	height: 100%;
+	background-color: #46BAF3;
+}
+.menu{
+	width: 300px;
+	height: 100%;
+	margin: 0 auto;
+	border: 1px solid green;
+}
+
+.tub{
+text-align: center;
+color: #fff;
+text-transform: uppercase;
+font-weight: 700;
+font-family: sans-serif;
+font-size: 50px;
+margin-bottom: 10px;
+border: none;
+}
+
+input{
+	margin-left: 20px;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	font-size: 40px;
+}
+
+.info{
+	margin-left: 60px;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.time{
+	color: #fff;
+	text-align: center;
+	font-size: 40px;
+	width: 200px;
+	height: 40px;
+	margin-left: 40px;
+}
+
+input::placeholder{
+	font-size: 20px;
+}
+
+section:last-child{
+	margin-bottom: 50px;
+}
+
+button{
+	font-size: 20px;
+	font-weight: 700;
+	color: red;
+	text-align: center;
+	padding: 10px;
+	height: 50px;
+	border-radius: 100px;
+	position: relative;
+	top: -7px;
+	left: 5px;
+}
+.error{
+	font-size: 30px;
+	font-weight: 700;
+	color: red;
+	background: repeating-linear-gradient(125deg, yellow,green,yellow 30px);
+	text-shadow: #000 2px 2px 2px;
+}
